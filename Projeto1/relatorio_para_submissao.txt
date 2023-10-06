@@ -1,0 +1,100 @@
+Exercício 1: Criando um Projeto no MS-Code
+$mkdir Projeto1
+
+Exercício 2: Criando um programa básico
+
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main(){
+    char userName[20];
+
+    cout<<"Insira nome do usuário: ";
+    cin.getline(userName,20);
+
+    cout<<"Bom dia "<<userName<<endl;
+    return 0;
+
+
+}
+
+Exercício 3: Compilando o programa
+
+Após clicado o botão Debug/Run o programa foi debugado e compilado e não apresentou erro; o resultado foi apresentando no terminal, conforme o esperado.
+-------------------------------------
+
+Exercício 4: Criando outro programa básico
+
+#include <iostream>
+using namespace std;
+
+int main(){
+    int A=5;
+    int B=3;
+
+    cout<<"Soma = "<<A+B<<endl;
+    cout<<"Subtração = "<<A-B<<endl;
+    cout<<"Multiplicação = "<<A*B<<endl;
+    cout<<"Divisão = "<<A/B<<endl;
+    cout<<"Resto = "<<A%B<<endl;
+    return 0;
+} 
+------------------------------------
+
+Exercício 5: Transformando as variáveis em float
+
+Na IDE Vscode, na barra de menu foi clicada a opção "edit", depois "replace", cada substituição foi realizada indivialmente para que houvesse controle e não se substituisse o retorno da função main.
+---------------------------------------------
+Exercício 6: Transforme o programa do exercício 4 para trabalhar com números do
+tipo float.
+
+#include <iostream>
+#include <iomanip>
+
+using namespace std;
+
+int main(){
+    float A=5.0f;
+    float B=3.0f;
+
+    cout<<"Soma = "<<fixed<<setprecision(1)<<A+B<<endl;
+    cout<<"Subtração = "<<fixed<<setprecision(1)<<A-B<<endl;
+    cout<<"Multiplicação = "<<fixed<<setprecision(1)<<A*B<<endl;
+    cout<<"Divisão = "<<setprecision(1)<<A/B<<endl<<endl;
+    return 0;
+}
+---------------------------------------------
+
+Exercício 7:Verificando Extensões Instaladas
+
+C/C++
+C/C++ Extension Pack
+C/C++ Themes
+CMake
+CMake Tools
+GitLens — Git supercharged
+--------------------------------------------
+Exercício 8: Instalando Extensões
+
+
+Bracket Pair Colorization Toggler
+A VS Code extension that gives you a simple command to quickly toggle the global “Bracket Pair Colorization” setting added in VS Code v1.60.
+
+Por um simples comando troca as cores de parenteses, colchetes e chaves, para destacar aqueles que foram abertos e fechados.
+---------------
+Markdown All in One
+All you need for Markdown (keyboard shortcuts, table of contents, auto preview and more).
+
+Tudo o que precisa para se criar o arquivo Markdown (.md) do Git/github.
+---------------
+
+Exercício 9: Customizando a IDE - Temas
+
+Cliquei no icone de extensions, em search digitei dracula, foi escolhida a Dracula official, cliquei no botão install. Após instalação foram foi selecionado tema de cores Dracula soft. A utilização da extensão muda a cor do fundo do ambiente de programação para preto e colore as letras/palavras com diferentes cores.
+
+
+
+
+

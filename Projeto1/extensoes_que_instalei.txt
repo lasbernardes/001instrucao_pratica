@@ -1,0 +1,7 @@
+Bracket Pair Colorization Toggler
+A VS Code extension that gives you a simple command to quickly toggle the global “Bracket Pair Colorization” setting added in VS Code v1.60.
+
+Markdown All in One
+All you need for Markdown (keyboard shortcuts, table of contents, auto preview and more).
+
+
